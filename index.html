@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="CodeKadhai — cooking up cool things for the internet."
+    >
+
+    <title>CodeKadhai. — Cooking Up Cool Things</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         CUSTOM CURSOR
+    ====================================================== -->
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-box">K</span>
+            <span class="logo-text">CodeKadhai<span>.</span></span>
+        </a>
+
+        <nav class="desktop-nav">
+            <a href="#home">Home</a>
+            <a href="#cooking">Cooking</a>
+            <a href="#experiments">Experiments</a>
+            <a href="#shop">Good Stuff</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =====================================================
+         MOBILE MENU
+    ====================================================== -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <div class="mobile-menu-inner">
+
+            <p class="menu-label">
+                THE MENU
+            </p>
+
+            <a href="#home">Home</a>
+            <a href="#cooking">What's Cooking?</a>
+            <a href="#experiments">Experiments</a>
+            <a href="#shop">Good Stuff</a>
+            <a href="#contact">Let's Cook</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO SECTION
+        ================================================== -->
+
+        <section
+            class="hero section-grid"
+            id="home"
+        >
+
+            <!-- Decorative background elements -->
+
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="hero-grid-decoration"></div>
+
+
+            <!-- Hero content -->
+
+            <div class="hero-content">
+
+                <p class="eyebrow hero-eyebrow">
+                    EST. ON THE INTERNET · COOKING SINCE 2023
+                </p>
+
+
+                <h1 class="hero-title">
+
+                    <span class="title-line">
+                        Cooking Up
+                    </span>
+
+                    <span class="title-line title-orange">
+                        Cool Things
+                    </span>
+
+                    <span class="title-line">
+                        for the
+                    </span>
+
+                    <span class="title-line">
+                        Internet<span class="period">.</span>
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+                    Websites, digital products, creative experiments
+                    and useful tools — all cooked up with code,
+                    creativity and a little bit of panga.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#cooking"
+                        class="button button-primary"
+                    >
+                        <span>Explore What's Cooking</span>
+                        <span class="button-arrow">↘</span>
+                    </a>
+
+                    <a
+                        href="#shop"
+                        class="button button-secondary"
+                    >
+                        <span>Visit the Shop</span>
+                        <span class="button-arrow">↗</span>
+                    </a>
+
+                </div>
+
+
+                <!-- Tiny stats -->
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <strong>05</strong>
+                        <span>live creations</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>04</strong>
+                        <span>kinds of good stuff</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>∞</strong>
+                        <span>weird ideas</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 KADHAI ILLUSTRATION
+            ================================================== -->
+
+            <div class="kadhai-scene">
+
+                <!-- Floating ingredient/code labels -->
+
+                <div class="floating-note note-one">
+                    <span>code</span>
+                    <strong>98%</strong>
+                </div>
+
+                <div class="floating-note note-two">
+                    <span>now</span>
+                    <strong>cooking</strong>
+                </div>
+
+                <div class="floating-note note-three">
+                    <span>idea</span>
+                    <strong>spicy!</strong>
+                </div>
+
+
+                <!-- Floating particles -->
+
+                <div class="particle particle-one"></div>
+                <div class="particle particle-two"></div>
+                <div class="particle particle-three"></div>
+                <div class="particle particle-four"></div>
+
+                <!-- SPOON -->
+                <div class="cooking-spoon" aria-hidden="true">
+                <div class="spoon-handle"></div>
+                <div class="spoon-head"></div>
+                </div>
+
+
+                <!-- Kadhai wrapper -->
+
+                <div class="kadhai-wrapper">
+
+
+                    <!-- Steam -->
+
+                    <div class="steam steam-one"></div>
+                    <div class="steam steam-two"></div>
+                    <div class="steam steam-three"></div>
+
+
+                    <!-- Laptop / code board -->
+
+                    <div class="code-board">
+
+                        <div class="code-window-bar">
+
+                            <span class="window-title">
+                                codexkadhai.exe
+                            </span>
+
+                            <div class="window-buttons">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="code-content">
+
+                            <p>
+                                <span class="code-purple">const</span>
+                                idea =
+                                <span class="code-yellow">
+                                    "maybe this works"
+                                </span>;
+                            </p>
+
+                            <p>
+                                <span class="code-green">while</span>
+                                (idea.isSpicy) {
+                            </p>
+
+                            <p class="code-indent">
+                                idea.add(
+                                <span class="code-orange">
+                                    creativity
+                                </span>
+                                );
+                            </p>
+
+                            <p class="code-indent">
+                                idea.add(
+                                <span class="code-yellow">
+                                    "desi tadka"
+                                </span>
+                                );
+                            </p>
+
+                            <p>
+                                }
+                                <span class="code-comment">
+                                    // ship it
+                                </span>
+                            </p>
+
+                            <p class="terminal-line">
+                                &gt; simmering<span class="blink">_</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Kadhai -->
+
+                    <div class="kadhai">
+
+                        <!-- Handle left -->
+
+                        <div class="kadhai-handle kadhai-handle-left">
+                        </div>
+
+                        <!-- Handle right -->
+
+                        <div class="kadhai-handle kadhai-handle-right">
+                        </div>
+
+
+                        <!-- Back rim -->
+
+                        <div class="kadhai-back">
+                        </div>
+
+
+                        <!-- Main pan -->
+
+                        <div class="kadhai-body">
+
+                            <div class="kadhai-rim">
+
+                                <div class="kadhai-food">
+
+                                    <div class="food-one"></div>
+                                    <div class="food-two"></div>
+                                    <div class="food-three"></div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="kadhai-front">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Stir button -->
+
+                    <button
+                        class="stir-button"
+                        id="stirButton"
+                    >
+                        <span>stir the kadhai</span>
+                        <span>↗</span>
+                    </button>
+
+                </div>
+
+
+                <p class="kadhai-caption">
+                    click the little button · make it spicy
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             COOKING SECTION
+        ================================================== -->
+
+        <section
+            class="cooking-section"
+            id="cooking"
+        >
+
+            <div class="section-container">
+
+
+                <!-- Section heading -->
+
+                <div class="section-heading reveal">
+
+                    <p class="eyebrow">
+                        01 · FRESH OFF THE FIRE
+                    </p>
+
+                    <h2>
+                        Fresh from the Kadhai
+                        <span class="heading-emoji">🔥</span>
+                    </h2>
+
+                    <a
+                        href="#all-projects"
+                        class="text-link"
+                    >
+                        See the full menu
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+
+                <!-- Project cards -->
+
+                <div
+                    class="project-grid"
+                    id="all-projects"
+                >
+
+                    <!-- Project 04 — Focus Circus -->
+<article class="project-card project-card-orange reveal">
+
+    <div class="project-image focus-circus-image">
+        <img
+            src="assets/focus-circus.png"
+            alt="Focus Circus project preview"
+        >
+    </div>
+
+    <div class="project-info">
+
+        <p class="card-category">
+            PRODUCTIVITY
+        </p>
+
+        <h3>
+            Focus Circus
+        </h3>
+
+        <p>
+            Turn focused work into a tiny circus show.
+            Focus, perform, take your intermission,
+            and get your standing ovation.
+        </p>
+
+        <a
+            href="https://focus-circus.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card-link"
+        >
+            Open Focus Circus
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             LIVE / WHAT'S COOKING
+        ================================================== -->
+
+        <section
+            class="live-section"
+            id="experiments"
+        >
+
+            <div class="section-container">
+
+
+                <div class="live-heading reveal">
+
+                    <p class="eyebrow">
+                        02 · LIVE FROM THE KITCHEN
+                    </p>
+
+                    <h2>
+                        What's Cooking?
+                        <span class="eyes">👀</span>
+                    </h2>
+
+                    <div class="live-status">
+
+                        <span class="status-dot"></span>
+
+                        <span>
+                            updated hourly
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Cooking list -->
+
+                <div class="cooking-list">
+
+
+                    <!-- Cooking item -->
+
+                    <article
+                        class="cooking-item reveal"
+                    >
+
+                        <div class="cooking-icon">
+                            🧪
+                        </div>
+
+                        <div class="cooking-content">
+
+                            <h3>
+                                Digital Album Creator
+                            </h3>
+
+                            <p>
+                                A tiny room for big listening energy.
+                            </p>
+
+                        </div>
+
+                        <div class="cooking-status cooking">
+                            COOKING...
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Cooking item -->
+
+                    <article
+                        class="cooking-item reveal"
+                    >
+
+                        <div class="cooking-icon">
+                            🌐
+                        </div>
+
+                        <div class="cooking-content">
+
+                            <h3>
+                                New Website Concepts
+                            </h3>
+
+                            <p>
+                                Sketches, scroll experiments and good chaos.
+                            </p>
+
+                        </div>
+
+                        <div class="cooking-status in-kadhai">
+                            IN THE KADHAI...
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Cooking item -->
+
+                    <article
+                        class="cooking-item reveal"
+                    >
+
+                        <div class="cooking-icon">
+                            🤖
+                        </div>
+
+                        <div class="cooking-content">
+
+                            <h3>
+                                Experimental Digital Tools
+                            </h3>
+
+                            <p>
+                                Small tools for oddly specific problems.
+                            </p>
+
+                        </div>
+
+                        <div class="cooking-status coming-soon">
+                            COMING SOON...
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             SHOP SECTION
+        ================================================== -->
+
+        <section
+            class="shop-section"
+            id="shop"
+        >
+
+            <div class="section-container">
+
+
+                <div class="shop-heading reveal">
+
+                    <p class="eyebrow">
+                        03 · TAKE SOME GOOD STUFF HOME
+                    </p>
+
+                    <h2>
+                        Shop the Good Stuff
+                        <span>🛒</span>
+                    </h2>
+
+                    <p class="shop-intro">
+    Little digital goodies are cooking in the Kadhai.
+    Stay tuned — they'll be ready soon.
+</p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ABOUT / PROCESS SECTION
+        ================================================== -->
+
+        <section class="about-section">
+
+            <div class="section-container about-layout">
+
+
+                <div class="about-title reveal">
+
+                    <p class="eyebrow">
+                        04 · WHAT HAPPENS IN HERE
+                    </p>
+
+                    <h2>
+                        A little code.
+                        <br>
+                        A little chaos.
+                        <br>
+                        A lot of making.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-content reveal">
+
+                    <p class="large-text">
+                        CodeKadhai is a digital kitchen for
+                        experiments, ideas, websites, tools
+                        and whatever else seems worth building.
+                    </p>
+
+                    <p>
+                        Some things start as a random thought.
+                        Some start as a hackathon problem.
+                        Some start because someone said,
+                        “can you actually build that?”
+                    </p>
+
+                    <p>
+                        The answer is usually:
+                        <strong>let's cook.</strong>
+                    </p>
+
+
+                    <!-- Ingredients -->
+
+                    <div class="ingredients">
+
+                        <span>CODE</span>
+                        <span>DESIGN</span>
+                        <span>IDEAS</span>
+                        <span>UI/UX</span>
+                        <span>CHAOS</span>
+                        <span>COFFEE</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CTA SECTION
+        ================================================== -->
+
+        <section
+            class="cta-section"
+            id="contact"
+        >
+
+            <div class="cta-decoration">
+
+                <span>&lt;/&gt;</span>
+                <span>{ }</span>
+                <span>✦</span>
+                <span>01</span>
+
+            </div>
+
+
+            <div class="cta-content reveal">
+
+                <p class="eyebrow">
+                    05 · MADE TO ORDER
+                </p>
+
+                <h2>
+                    Got an Idea?
+                    <br>
+                    Let's Cook It
+                    <br>
+                    Up<span>.</span>
+                </h2>
+
+                <p>
+                    Bring the raw idea, the half-baked brief
+                    or the notes app rant. CodeKadhai can turn
+                    it into a clear, playful digital thing
+                    people actually want to use.
+                </p>
+
+                <button
+                    type=""button"
+                    class="button button-primary"
+                    id="bringIdeaButton"
+                >
+                    <span>Bring the Idea</span>
+                    <span>↗</span>
+            </button>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================================
+        BRING THE IDEA POPUP
+        ====================================================== -->
+
+        <div class="idea-modal" id="ideaModal">
+            <div class="idea-modal-backdrop" id="ideaModalBackdrop"></div>
+
+            <div class="idea-modal-box">
+
+                <button
+                    type="button"
+                    class="idea-modal-close"
+                    id="closeIdeaModal"
+                    aria-label="Close"
+                >
+                    ×
+                </button>
+
+                <p class="eyebrow">06. INTO THE KADHAI</p>
+
+                <h2>
+                    Let's cook<br>
+                    something.
+                </h2>
+
+                <p class="idea-modal-intro">
+                    Bring the half-baked thought, the chaotic notes,
+                    or the full-blown idea. Let's turn it into something real.
+                </p>
+
+                <form id="ideaForm">
+
+                    <div class="idea-field">
+                        <label for="ideaName">Your name *</label>
+                        <input
+                            type="text"
+                            id="ideaName"
+                            name="name"
+                            placeholder="What should we call you?"
+                            required
+                    >
+                    </div>
+
+                    <div class="idea-field">
+                        <label for="ideaEmail">Your email *</label>
+                        <input
+                            type="email"
+                            id="ideaEmail"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                    >
+                    </div>
+
+                    <div class="idea-field">
+                        <label for="ideaContact">Contact / Instagram <span>(optional)</span></label>
+                        <input
+                            type="text"
+                            id="ideaContact"
+                            name="contact"
+                            placeholder="@yourhandle or phone number"
+                    >
+                    </div>
+
+                    <div class="idea-field">
+                        <label for="ideaMessage">What do you want to build? *</label>
+                            <textarea
+                                id="ideaMessage"
+                                name="idea"
+                                rows="5"
+                                placeholder="Tell me about your idea..."
+                                required
+                            ></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="button button-primary idea-submit"
+                        id="ideaSubmit"
+                    >
+                        <span>Send It to the Kadhai</span>
+                        <span>🔥</span>
+                    </button>
+
+                    <p class="idea-form-status" id="ideaFormStatus"></p>
+
+                </form>
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <a
+                href="#home"
+                class="footer-logo"
+            >
+                CodeKadhai<span>.</span>
+            </a>
+
+
+            <p>
+                Cooking up cool things for the internet.
+            </p>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#cooking">Cooking</a>
+                <a href="#experiments">Experiments</a>
+                <a href="#shop">Shop</a>
+                <a
+                    href="https://www.instagram.com/codekadhai?stkn=MXFqa3Fqd3E1dHJ6YQ=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 CodeKadhai.
+            </span>
+
+            <span>
+                Made with code & tadka.
+            </span>
+
+            <a href="#home">
+                Back to top ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         SCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
