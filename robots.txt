@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://codekadhai.netlify.app/sitemap.xml
