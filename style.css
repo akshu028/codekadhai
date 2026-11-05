@@ -3746,3 +3746,73 @@ body.modal-open {
     object-position: top;
     display: block;
 }
+
+.brand-tagline {
+    margin-top: 22px;
+    color: var(--teal);
+    font-family: "DM Mono", monospace;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+}
+
+/* SERVICES SECTION */
+
+.services-section {
+    padding: 110px 0;
+    background: #181522;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 45px;
+}
+
+.service-card {
+    position: relative;
+    padding: 35px;
+    background: #11121c;
+    border: 1px solid rgba(255, 241, 214, 0.12);
+    border-radius: 18px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-7px);
+    border-color: #ff8500;
+}
+
+.service-number {
+    font-family: "DM Mono", monospace;
+    color: #ff8500;
+    font-size: 13px;
+}
+
+.service-card h3 {
+    color: #fff1d6;
+    font-size: 25px;
+    margin: 25px 0 12px;
+}
+
+.service-card p {
+    color: #a39e96;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.service-card a {
+    color: #ffc400;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 27px;
+    }
+}
